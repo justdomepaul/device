@@ -1,0 +1,11 @@
+bin/
+pkg/
+.idea/
+.idea
+vendor/
+.env
+*.log
+storage/*
+!storage/.gitkeep
+.gitconfig
+.bot-center-credentials
