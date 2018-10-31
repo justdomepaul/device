@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  deviceweather:
+    restart: always
+    container_name: DeviceWeather
+    image: karmaclient
+    ports:
+      - 39910:39910
+
+networks:
+    output_net:
+      external: true
